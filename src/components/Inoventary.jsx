@@ -3,61 +3,63 @@ import { Button } from 'react-bootstrap'
 import Table from 'react-bootstrap/Table';
 import data from './Data.json'
 const Inoventary = () => {
-    const[details,setDetails] =useState(data)
+  const [details, setDetails] = useState(data)
+
+  const updateHandle=()=>{
+    console.log(details)
+  }
+  const clickHandler=()=>{
+    console.log(details)
+  }
   return (
-    
-         <div className='conatiner' >
-           <h2>products</h2><br/>
-           <input type='search' placeholder='search'/>
-           <button>click</button>
-        
-      
-  <div className='main-container'style={{marginTop:"60px"}}>
 
-    <Table>
-      <thead>
-        <tr>
-          <th>Id</th>
-          <th>supplier</th>
-          <th>product Name</th>
-          <th>Purchase Price</th>
-          <th>sale price</th>
-          <th>stock</th>
-          <th>per pack</th>
-          <th>Total purchase price</th>
-          <th>Total sale price</th>
-          <th>saleable</th>
-          <th>-</th>
-        </tr>
-      </thead>
-       <tbody> 
- 
-       {details.map((ele)=>(
+    <div className='conatiner' style={{background:"lightblue",color:"white"}} >
+      <h2 style={{color:"black"}}>products</h2><br />
+      <input type='search' placeholder='search' />
+      <button onClick={clickHandler}>click</button>
+      <div>
+      <button type="button" class="btn btn-secondary" style={{marginRight:"1200px"}}>NewProduct</button>
+      </div>
+     
+      <div className='main-container' style={{ background:"orange",marginTop: "60px", color:"white"}}>
 
-    
-      <tr>
-     <td>{ele.id}</td>
-      <td>{ele.supplier}</td>
-    <td>{ele.ProductName}</td>
-        <td>{ele.puchraseprice}</td>
-      <td>{ele.saleprice}</td>
-        <td>{ele.stocks}</td>
-   <td>{ele.perstock}</td>
-    <td>{ele.Totalpucharseprice}</td>
-<td>{ele.Totalsaleprice}</td>
-<td>{ele.saleable}</td>
-<tr/>
-))}
-       </tbody>
-      
-    </Table>
-  
+        <Table  style={{border:"2px solid black"}}>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>categery</th>
+              <th>stock</th>
+              <th>Price</th>
+              <th>-</th>
+            </tr>
+          </thead>
+          <tbody>
 
-  
+            {details.map((ele) => (
 
-    
-         </div>
-        </div>
+
+              <tr>
+                <td>{ele.id}</td>
+                <td>{ele.Name}</td>
+                <td>{ele.Description}</td>
+                <td>{ele.category}</td>
+                <td>{ele.stock}</td>
+                <td>{ele.price}</td>
+                <td><button style={{background:"green",color:"white"}} onClick={updateHandle}>update</button> </td>
+              </tr>
+            ))}
+          </tbody>
+
+        </Table>
+
+
+
+
+
+      </div>
+    </div>
   )
 }
 

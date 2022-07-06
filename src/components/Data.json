@@ -2,30 +2,23 @@
     {
      
       "id":"1",
-      "supplier":"Ed vendor",
-      "Product Name":"parleg",
-      "puchrase price":"210",
-      "sale price":"230",
-      "stocks":"10",
-      "per stock":"12",
-      "Total pucharse price":"2100",
-      "Total sale price":"2300",
-        "saleable":"1234"
+      "Name":"Ed vendor",
+      "Description":"parleg",
+      "category":"cement",
+      "stock":"230",
+      "price":"10"
      
-
  
     },
     {
       "id":"2",
-      "supplier":"myHome vendor",
-      "ProductName":"cement",
-      "puchraseprice":"110",
-      "saleprice":"200",
-      "stocks":"12",
-      "perstock":"10",
-      "Totalpucharseprice":"1100",
-      "Totalsaleprice":"2400",
-        "saleable":"121"
+      "Name":"Ed vendor",
+      "Description":"good",
+      "category":"parlg",
+      "stock":"23",
+      "price":"100"
+     
+ 
      
     
     }
