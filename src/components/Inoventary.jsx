@@ -38,7 +38,7 @@ const Inoventary = () => {
       <tr>
      <td>{ele.id}</td>
       <td>{ele.supplier}</td>
-    <td>{ele.productName}</td>
+    <td>{ele.ProductName}</td>
         <td>{ele.puchraseprice}</td>
       <td>{ele.saleprice}</td>
         <td>{ele.stocks}</td>
