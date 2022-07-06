@@ -3,74 +3,59 @@ import { Button } from 'react-bootstrap'
 import Table from 'react-bootstrap/Table';
 import data from './Data.json'
 const Inoventary = () => {
-    const[unit,setUnit] =useState(data)
+    const[details,setDetails] =useState(data)
   return (
-    <div>
-         <div className='display- felx space between them'>
-         <Button variant="primary">uplaoditems</Button>
-         <Button variant="primary">Actions</Button>
-         <div>
+    
+         <div className='conatiner' >
+           <h2>products</h2><br/>
+           <input type='search' placeholder='search'/>
+           <button>click</button>
+        
       
+  <div className='main-container'style={{marginTop:"60px"}}>
 
-
-    <Table striped bordered hover>
+    <Table>
       <thead>
         <tr>
-          <th>#</th>
-          <th>Item id</th>
-          <th>Item Name</th>
-          <th>Item catogery</th>
-          <th>current stock</th>
-          <th>unit</th>
-          <th>price</th>
-          <th>type</th>
-         
+          <th>Id</th>
+          <th>supplier</th>
+          <th>product Name</th>
+          <th>Purchase Price</th>
+          <th>sale price</th>
+          <th>stock</th>
+          <th>per pack</th>
+          <th>Total purchase price</th>
+          <th>Total sale price</th>
+          <th>saleable</th>
+          <th>-</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
+       <tbody> 
+ 
+       {details.map((ele)=>(
 
-        <th>A</th>
-          <th>Item Name</th>
-          <th>Item catogery</th>
-          <th>current stock</th>
-          <th>unit</th>
-          <th>price</th>
-          <th>type</th>
-         
-       
+    
+      <tr>
+     <td>{ele.id}</td>
+      <td>{ele.supplier}</td>
+    <td>{ele.productName}</td>
+        <td>{ele.puchraseprice}</td>
+      <td>{ele.saleprice}</td>
+        <td>{ele.stocks}</td>
+   <td>{ele.perstock}</td>
+    <td>{ele.Totalpucharseprice}</td>
+<td>{ele.Totalsaleprice}</td>
+<td>{ele.saleable}</td>
+<tr/>
+))}
+       </tbody>
       
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>SKU00002</td>
-          <td>Thornton</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td colSpan={2}>-</td>
-         
-        </tr>
-        <tr>
-          <td>4</td>
-          <td colSpan={2}>110</td>
-          <td>SKU00002</td>
-          <td>100</td>
-
-          <td>5</td>
-          <td colSpan={2}>110</td>
-          <td>SKU00002</td>
-          <td>100</td>
-         
-        </tr>
-      </tbody>
     </Table>
   
 
+  
 
-
-         </div>
+    
          </div>
         </div>
   )

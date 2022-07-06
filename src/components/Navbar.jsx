@@ -20,8 +20,9 @@ const Navbar = () => {
           <a class="nav-link" href="/inoventary">Inoventery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/gsignup">GsignUP</a>
+          <a class="nav-link" href="/todo1">Todo1</a>
         </li>
+       
       
        
         

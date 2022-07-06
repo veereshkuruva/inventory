@@ -1,10 +1,8 @@
 import {Routes,Route} from "react-router-dom"
-import GsignUP from "./components/GsignUP.jsx";
-import Home from "./components/Home";
+
 import Inoventary from "./components/Inoventary";
-import LoginUP from "./components/LoginUP";
 import Navbar from "./components/Navbar";
-import SignUp from "./components/SignUp";
+import Todo1 from "./components/Todo1.jsx";
 
 
 
@@ -14,12 +12,10 @@ function App() {
           <center>
             <Navbar/>
          <Routes>
-          <Route path ="/" element={<Home/>}/>   
-          <Route path ="/signup" element={<SignUp/>}/>    
+         
           <Route path ="/inoventary" element={<Inoventary/>}/>   
-          <Route path ="/gsignup" element={<GsignUP/>}/>   
-          <Route path ="/loginup" element={<LoginUP/>}/>   
-          
+        
+          <Route path ="/todo1" element={<Todo1/>}/>   
          </Routes>
           </center>
     </div>
