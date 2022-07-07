@@ -22,6 +22,9 @@ const Navbar = () => {
         <li class="nav-item">
           <a class="nav-link" href="/todo1">Todo1</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/comments">Comments</a>
+        </li>
        
       
        
