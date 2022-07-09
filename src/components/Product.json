@@ -418,54 +418,104 @@
     },
     { 
       
-        "name":" Amelia Fashion Sandals ",          //footwear16
+        "name":"Sparx Men's",          //cheppals1
         "price":"456",
         "rating":"4.3",
-        "image":"Amimg.jpg",
-        "category":"Amelia",
-        "Description":"Comfortable sandals "           
+        "image":"ch1.jpg",
+        "category":"men's sandel",
+        "Description":"Pair of Flip Flops "           
 
     },
     { 
       
-        "name":" Amelia Fashion Sandals ",          //footwear17
+        "name":"Big Fox Roman Sandals ",         //cheppals2
         "price":"456",
         "rating":"4.3",
-        "image":"Amimg.jpg",
-        "category":"Amelia",
-        "Description":"Comfortable sandals "
+        "image":"ch2.jpg",
+        "category":"men's sandel",
+        "Description":"Pair of Flip Flops "   
 
     },
     { 
       
-        "name":" Amelia Fashion Sandals ",          //footwear18
+        "name":" Power Men's Athletic  ",           //cheppals3
         "price":"456",
         "rating":"4.3",
-        "image":"Amimg.jpg",
-        "category":"Amelia",
-        "Description":"Comfortable sandals "
+        "image":"ch3.jpg",
+        "category":"men's sandel",
+        "Description":"Pair of Flip Flops "   
 
     },
     { 
       
-        "name":" Amelia Fashion Sandals ",          //footwear19
+        "name":" ",           //cheppals4
         "price":"456",
         "rating":"4.3",
-        "image":"Amimg.jpg",
-        "category":"Amelia",
-        "Description":"Comfortable sandals "
+        "image":"ch4.jpg",
+        "category":"men's sandel",
+        "Description":"Pair of Flip Flops "   
 
     },
     { 
       
-        "name":" Amelia Fashion Sandals ",          //footwear20
+        "name":" Amelia Fashion Sandals ",         //cheppals5
         "price":"456",
         "rating":"4.3",
-        "image":"Amimg.jpg",
-        "category":"Amelia",
-        "Description":"Comfortable sandals "
+        "image":"ch5.jpg",
+        "category":"men's sandel",
+        "Description":"Pair of Flip Flops "   
+
+    },
+    { 
+      
+        "name":"MEENAZ Jewellery ",         //rings1
+        "price":"456",
+        "rating":"4.3",
+        "image":"rin1.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip rings "   
+
+    },
+    { 
+      
+        "name":" Moneekar Jewels Ring  ",         //rings2
+        "price":"456",
+        "rating":"4.3",
+        "image":"rin2.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Moneekar Jewels Ring  ",          //rings3
+        "price":"456",
+        "rating":"4.3",
+        "image":"rin3.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings"   
+
+    },
+    { 
+      
+        "name":" Solitaire Rings  ",         //rings4
+        "price":"456",
+        "rating":"4.3",
+        "image":"rin4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings"   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",         //rings5
+        "price":"456",
+        "rating":"4.3",
+        "image":"rin5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
 
     },
 
 ]
-//20+10+15=45`
+//20+10+15+5=50
