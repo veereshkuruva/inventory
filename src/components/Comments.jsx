@@ -7,11 +7,11 @@ const Comments = () => {
     }
    
     const clickHandler = () => {
-        let newText = text.toUpperCase()
+        let newText = text.toUpperCase();
         setText(newText)
     }
     const clickHandler2 = () => {
-        let newText = text.toLowerCase()
+        let newText = text.toLowerCase();
         setText(newText)
     }
     const clickClearHandler2 = () => {

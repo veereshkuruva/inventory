@@ -1,38 +1,471 @@
-products:[
-    {
-        "id":"1",
-        "name":"Ace Asipre",
-        "price": 5000,
-        "category": "MS Office/1.7 Kg",
-        "Description":"High Performance : Encounter high speed  12th Gen Intel Core i5-1235U Processor",
+[
+    { 
+       
+        "name":"Acer Extensa 15 11th Gen",           //laptops
         "rating":"3.5",
-        "image":""
+        "image":"laptopimg.jpg",
+        "category":"Acer"
+
     },
-    {
-        "id":"2",
-        "name":"Adidas",
-        "price": 500,
-        "category": "Men T-shirts",
-        "Description":"High Performance : Encounter high speed  12th Gen Intel Core i5-1235U Processor",
+    { 
+     
+        "name":"Acer Aspire 5 A515-56(53Y6)",
+        "price":"46,990",
+        "rating":"4.5",
+        "image":"AcerAsiperimg.jpg",
+        "category":"Aspire 5"
+
+
+    },
+    { 
+        
+        "name":"ASUS VivoBook 15",
+        "price":"46,990",
+        "rating":"4.0",
+        "image":"Asusimg.jpg",
+        "category":"Aspire 5"
+
+
+    },
+    { 
+       
+        "name":"Lenovo V14 ",
+        "price":"34,990",
+        "rating":"4.5",
+        "image":"lenimg.jpg",
+        "category":"V14"
+
+
+    },
+    { 
+       
+        "name":"Lenovo IdeaPad Slim 3",
+        "price":"28,980",
         "rating":"3.5",
-        "image":""
+        "image":"idealenimg.jpg",
+        "category":"IdeaPad 3 15IGL05"
+
+
     },
-    {
-    "id":"3",
-    "name":"Ipad",
-    "price": 500,
-    "category": "Men T-shirts",
-    "Description":"High Performance : Encounter high speed  12th Gen Intel Core i5-1235U Processor",
-    "rating":"3.5",
-    "image":""
+    { 
+      
+        "name":"Casual Full Sleeves Shirt Combo",                 // Shirts
+        "price":"949",
+        "rating":"2.5",
+        "image":"shiimg.jpg",
+        "category":"slim fit shirt"
+
+
     },
-    {
-        "id":"4",
-        "name":"Ipad",
-        "price": 500,
-        "category": "Men T-shirts",
-        "Description":"High Performance : Encounter high speed  12th Gen Intel Core i5-1235U Processor",
+    { 
+       
+        "name":"Men's Slim Fit Casual Shirt",
+        "price":"599",
         "rating":"3.5",
-        "image":""
-        },
+        "image":"genimg.jpg",
+        "category":"Generic"
+
+
+    },
+    { 
+      
+        "name":"Men's Slim Fit Casual Shirt",
+        "price":"599",
+        "rating":"3.5",
+        "image":"genimg.jpg",
+        "category":"Generic"
+
+
+    },
+    { 
+      
+        "name":"IndoPrimo Men's Regular Fit",
+        "price":"499",
+        "rating":"3.5",
+        "image":"indoimg.jpg",
+        "category":"mens casual fit"
+
+
+    },
+    { 
+      
+        "name":"Dennis Lingo Men's Shirt",
+        "price":"695",
+        "rating":"3.0",
+        "image":"denimg.jpg",
+        "category":"Denis shirt "
+
+
+    },
+    { 
+      
+        "name":" Majestic Man Solid Slim Fit",
+        "price":"799",
+        "rating":"4.0",
+        "image":"slimimg.jpg",
+        "category":"slim fit"
+
+
+    },
+
+    { 
+      
+        "name":"ASIAN Men's Hattrick-09 Sports",        // shoes
+        "price":"698",
+        "rating":"4.5",
+        "image":"sportimg.jpg",
+        "category":"Sports Running"
+
+
+    },
+    { 
+      
+        "name":"Sparx Men's Sd0323g Sneakers",       
+        "price":"719",
+        "rating":"3.5",
+        "image":"sneimg.jpg",
+        "category":"snekers"
+
+
+    },
+    
+    { 
+      
+        "name":"ASIAN Delta-20 Sports",       
+        "price":"799",
+        "rating":"4.0",
+        "image":"jumpimg.jpg",
+        "category":"Jump Casual Sneaker"
+
+
+    },
+    { 
+      
+        "name":"Harmeet Men's Sport ",       
+        "price":"678",
+        "rating":"2.5",
+        "image":"runimg.jpg",
+        "category":" Running Shoes for Men"
+
+
+    },
+    { 
+      
+        "name":"Kraasa Tesla-44 ",       
+        "price":"678",
+        "rating":"3.5",
+        "image":"karimg.jpg",
+        "category":"Running Shoes for Men"
+
+
+    },
+    { 
+      
+        "name":"Duroflex Zivo Fabric Sofa",         // Furnitures 1
+        "price":"16,980",
+        "rating":"4.5",
+        "image":"Durimg.jpg",
+        "category":"Fabric Sofa "
+
+
+    },
+      { 
+      
+        "name":"S D FURNITURE Solid Wooden Sofa",       
+        "price":"15,980",
+        "rating":"4.0",
+        "image":"wodenimg.jpg ",
+        "category":"Cushions Wooden Sofa Set "
+
+
+    },
+    { 
+      
+        "name":" Teak Wooden Sofa ",       
+        "price":"31,990",
+        "rating":"5.0",
+        "image":"tekimg.jpg",
+        "category":" Wood Sofa "
+
+
+    },
+    { 
+      
+        "name":"Aart Store 1 ",        
+        "price":"17,980",
+        "rating":"4.0",
+        "image":"Art.jpg",
+        "category":"Sofa Bed "
+
+
+    },
+    { 
+      
+        "name":"Aart Store Wooden",        
+        "price":"20,880",
+        "rating":"4.3",
+        "image":"Aart.jpg",
+        "category":"Three Seater Sofa "
+
+
+    },
+    { 
+      
+        "name":"Samsung Galaxy M33 5G  ",          //mobiles1
+        "price":"20,880",
+        "rating":"4.3",
+        "image":"5gimg.jpg",
+        "category":"samsung",
+        "Description":"Exynos 1280 Octa Core 2.4GHz 5nm Processor with 12 band "
+
+    },
+    { 
+      
+        "name":"Redmi Note 11  ",          //mobiles2
+        "price":"10,580",
+        "rating":"4.3",
+        "image":"redimg.jpg",
+        "category":"Redmi",
+        "Description":"Memory, Storage & SIM: 6GB RAM | 64GB UFS 2.2 storage "
+
+
+
+    },
+    { 
+      
+        "name":"Redmi 9A Sport  " ,                            //mobiles3
+        "price":"20,850",
+        "rating":"4.3",
+        "image":"9aimg.jpg",
+        "category":"redmi 9a ",
+        "Description":"Snapdragon 680 comes with octa-core architecture design"
+
+
+    },
+    { 
+      
+        "name":"vivo iQOO Z6 44W",          //mobiles4
+        "price":"22,380",
+        "rating":"4.3",
+        "image":"vivoimg.jpg",
+        "category":"vivo iQOO ",
+        "Description":"50MP AI rear camera comes with a variety of smart AI camera"
+
+
+    },
+    { 
+      
+        "name":"realme narzo 50",          //mobiles5
+        "price":"21,680",
+        "rating":"4.3",
+        "image":"relimg.jpg",
+        "category":"realme",
+        "Description":"4 GB RAM | 64 GB ROM | Expandable Upto 256 GB "
+
+    },
+    { 
+      
+        "name":"TRASE Women's Fashion ",          //footwear1
+        "price":"880",
+        "rating":"4.3",
+        "image":"trase.jpg",
+        "category":"womens",
+        "Description":" Comfortable Slip-Ons for Women & Girls"
+
+    },
+    { 
+      
+        "name":"tresmode Women ",          //footwear2
+        "price":"480",
+        "rating":"3.2",
+        "image":"trsimg.jpg",
+        "category":"tresmode girls",
+        "Description":" Comfortable Slip-Ons for Women"
+
+
+    },
+    { 
+      
+        "name":"BATA womens",          //footwear3
+        "price":"380",
+        "rating":"4",
+        "image":"batimg.jpg",
+        "category":"bata womes ",
+      
+
+    },
+    { 
+      
+        "name":"Jupitor Sandal ",          //footwear4
+        "price":"980",
+        "rating":"4.3",
+        "image":"jupimg.jpg",
+        "category":"jupitor ",
+        "Description":"Comfortable sandals "
+
+
+    },
+    { 
+      
+        "name":" Amelia Fashion Sandals ",          //footwear5
+        "price":"4780",
+        "rating":"4.3",
+        "image":"Amimg.jpg",
+        "category":"Amelia",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":" boAt Bassheads 192  ",          //boAt1
+        "price":"1256",
+        "rating":"3.0",
+        "image":"boAt1.jpg",
+        "category":" Ear Earphones ",
+        "Description":" Enjoy a seamless access over your playback"
+
+    },
+    { 
+      
+        "name":" boAt Bassheads ",         //boAt2
+        "price":"2345",
+        "rating":"4.3",
+        "image":"boa2.jpg",
+        "category":"Wired in Ear Earphones",
+        "Description":"Traverse your city with the perfect length "
+
+    },
+    { 
+      
+        "name":" ADOFF ADF01  ",        //boAt3
+        "price":"4553",
+        "rating":"4.3",
+        "image":"boa3.jpg",
+        "category":"Amelia",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":" boAt Rockerz 255 ",         //boAt4
+        "price":"4566",
+        "rating":"4.3",
+        "image":"boa3.jpg",
+        "category":"boat",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":" boAt Rockerz 245v2 ",         //boAt5
+        "price":"4569",
+        "rating":"4.3",
+        "image":"boa5.jpg",
+        "category":"boat",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":"boAt Xtend Smartwatch ",          //watch1
+        "price":"2,699",
+        "rating":"4.3",
+        "image":"fir1.jpg",
+        "category":"watch",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":" Fire-Boltt Ninja  ",            //watch2
+        "price":"456",
+        "rating":"4.3",
+        "image":"fir6.jpg",
+        "category":"watch",
+        "Description":"Wearable Watch Brand Q122 by  "
+
+    },
+
+    { 
+      
+        "name":"  Flash Edition Smart Watch  ",          //watch3
+        "price":"456",
+        "rating":"4.3",
+        "image":"fir3.jpg",
+        "category":"watch",
+        "Description":"Wearable Watch Brand Q122 by  "
+
+    },
+    { 
+      
+        "name":"Noise ColorFit Puls",          //watch4
+        "price":"456",
+        "rating":"4.3",
+        "image":"fir4.jpg",
+        "category":"watch",
+        "Description":"Wearable Watch Brand Q122 by  "
+
+    },
+    { 
+      
+        "name":" Shocknshop Outdoor Sports",             //watch5
+        "price":"456",
+        "rating":"4.3",
+        "image":"fir5.jpg",
+        "category":"watch",
+        "Description":"Wearable Watch Brand Q122 by "
+
+    },
+    { 
+      
+        "name":" Amelia Fashion Sandals ",          //footwear16
+        "price":"456",
+        "rating":"4.3",
+        "image":"Amimg.jpg",
+        "category":"Amelia",
+        "Description":"Comfortable sandals "           
+
+    },
+    { 
+      
+        "name":" Amelia Fashion Sandals ",          //footwear17
+        "price":"456",
+        "rating":"4.3",
+        "image":"Amimg.jpg",
+        "category":"Amelia",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":" Amelia Fashion Sandals ",          //footwear18
+        "price":"456",
+        "rating":"4.3",
+        "image":"Amimg.jpg",
+        "category":"Amelia",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":" Amelia Fashion Sandals ",          //footwear19
+        "price":"456",
+        "rating":"4.3",
+        "image":"Amimg.jpg",
+        "category":"Amelia",
+        "Description":"Comfortable sandals "
+
+    },
+    { 
+      
+        "name":" Amelia Fashion Sandals ",          //footwear20
+        "price":"456",
+        "rating":"4.3",
+        "image":"Amimg.jpg",
+        "category":"Amelia",
+        "Description":"Comfortable sandals "
+
+    },
+
 ]
+//20+10+15=45`

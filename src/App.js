@@ -1,5 +1,6 @@
 import {Routes,Route} from "react-router-dom"
 import Comments from "./components/Comments";
+import Food from "./components/Food";
 import Inoventary from "./components/Inoventary";
 import Navbar from "./components/Navbar";
 import Todo1 from "./components/Todo1.jsx";
@@ -17,6 +18,7 @@ function App() {
         
           <Route path ="/todo1" element={<Todo1/>}/>  
           <Route path ="/comments" element={<Comments/>}/>  
+          <Route path ="/food" element={<Food/>}/>  
          </Routes>
           </center>
     </div>
