@@ -19,7 +19,7 @@ const Navbar = () => {
         <li className="nav-item">
           <a className="nav-link" href="/inoventary">Inoventery</a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a class="nav-link" href="/todo1">Todo1</a>
         </li>
         <li className="nav-item">
@@ -28,7 +28,7 @@ const Navbar = () => {
         <li className="nav-item">
           <a className="nav-link" href="/food">Food</a>
         </li>
-       
+        */}
       
        
         

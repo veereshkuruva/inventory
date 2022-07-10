@@ -4,8 +4,8 @@
         "name":"Acer Extensa 15 11th Gen",           //laptops
         "rating":"3.5",
         "image":"laptopimg.jpg",
-        "category":"Acer"
-
+        "category":"Acer",
+         "Description":"good quality product"
     },
     { 
      
@@ -13,7 +13,8 @@
         "price":"46,990",
         "rating":"4.5",
         "image":"AcerAsiperimg.jpg",
-        "category":"Aspire 5"
+        "category":"Aspire 5",
+        "Description":"good quality product"
 
 
     },
@@ -23,7 +24,8 @@
         "price":"46,990",
         "rating":"4.0",
         "image":"Asusimg.jpg",
-        "category":"Aspire 5"
+        "category":"Aspire 5",
+        "Description":"good quality product"
 
 
     },
@@ -33,7 +35,8 @@
         "price":"34,990",
         "rating":"4.5",
         "image":"lenimg.jpg",
-        "category":"V14"
+        "category":"V14",
+        "Description":"good quality product"
 
 
     },
@@ -43,7 +46,8 @@
         "price":"28,980",
         "rating":"3.5",
         "image":"idealenimg.jpg",
-        "category":"IdeaPad 3 15IGL05"
+        "category":"IdeaPad 3 15IGL05",
+        "Description":"good quality product"
 
 
     },
@@ -53,7 +57,8 @@
         "price":"949",
         "rating":"2.5",
         "image":"shiimg.jpg",
-        "category":"slim fit shirt"
+        "category":"slim fit shirt",
+        "Description":"comfort and flexiable "
 
 
     },
@@ -63,7 +68,9 @@
         "price":"599",
         "rating":"3.5",
         "image":"genimg.jpg",
-        "category":"Generic"
+        "category":"Generic",
+        "Description":"comfort and flexiable "
+
 
 
     },
@@ -73,7 +80,9 @@
         "price":"599",
         "rating":"3.5",
         "image":"genimg.jpg",
-        "category":"Generic"
+        "category":"Generic",
+        "Description":"comfort and flexiable "
+
 
 
     },
@@ -83,7 +92,9 @@
         "price":"499",
         "rating":"3.5",
         "image":"indoimg.jpg",
-        "category":"mens casual fit"
+        "category":"mens casual fit",
+        "Description":"comfort and flexiable "
+
 
 
     },
@@ -93,7 +104,9 @@
         "price":"695",
         "rating":"3.0",
         "image":"denimg.jpg",
-        "category":"Denis shirt "
+        "category":"Denis shirt ",
+        "Description":"comfort and flexiable "
+
 
 
     },
@@ -103,7 +116,9 @@
         "price":"799",
         "rating":"4.0",
         "image":"slimimg.jpg",
-        "category":"slim fit"
+        "category":"slim fit",
+        "Description":"comfort and flexiable "
+
 
 
     },
@@ -114,7 +129,9 @@
         "price":"698",
         "rating":"4.5",
         "image":"sportimg.jpg",
-        "category":"Sports Running"
+        "category":"Sports Running",
+        "Description":"running and outfit"
+
 
 
     },
@@ -124,7 +141,8 @@
         "price":"719",
         "rating":"3.5",
         "image":"sneimg.jpg",
-        "category":"snekers"
+        "category":"snekers",
+        "Description":"running and outfit"
 
 
     },
@@ -135,7 +153,8 @@
         "price":"799",
         "rating":"4.0",
         "image":"jumpimg.jpg",
-        "category":"Jump Casual Sneaker"
+        "category":"Jump Casual Sneaker",
+        "Description":"running and outfit"
 
 
     },
@@ -145,7 +164,8 @@
         "price":"678",
         "rating":"2.5",
         "image":"runimg.jpg",
-        "category":" Running Shoes for Men"
+        "category":" Running Shoes for Men",
+        "Description":"running and outfit"
 
 
     },
@@ -155,7 +175,8 @@
         "price":"678",
         "rating":"3.5",
         "image":"karimg.jpg",
-        "category":"Running Shoes for Men"
+        "category":"Running Shoes for Men",
+        "Description":"running and outfit"
 
 
     },
@@ -165,7 +186,8 @@
         "price":"16,980",
         "rating":"4.5",
         "image":"Durimg.jpg",
-        "category":"Fabric Sofa "
+        "category":"Fabric Sofa ",
+        "Description":"home and free flexable firniture"
 
 
     },
@@ -175,7 +197,8 @@
         "price":"15,980",
         "rating":"4.0",
         "image":"wodenimg.jpg ",
-        "category":"Cushions Wooden Sofa Set "
+        "category":"Cushions Wooden Sofa Set ",
+        "Description":"home and free flexable firniture"
 
 
     },
@@ -185,7 +208,8 @@
         "price":"31,990",
         "rating":"5.0",
         "image":"tekimg.jpg",
-        "category":" Wood Sofa "
+        "category":" Wood Sofa ",
+        "Description":"home and free flexable firniture"
 
 
     },
@@ -195,7 +219,8 @@
         "price":"17,980",
         "rating":"4.0",
         "image":"Art.jpg",
-        "category":"Sofa Bed "
+        "category":"Sofa Bed ",
+        "Description":"home and free flexable firniture"
 
 
     },
@@ -205,8 +230,8 @@
         "price":"20,880",
         "rating":"4.3",
         "image":"Aart.jpg",
-        "category":"Three Seater Sofa "
-
+        "category":"Three Seater Sofa ",
+        "Description":"home and free flexable firniture"
 
     },
     { 
@@ -291,7 +316,7 @@
         "rating":"4",
         "image":"batimg.jpg",
         "category":"bata womes ",
-      
+        "Description":"Comfortable sandals "
 
     },
     { 
@@ -305,7 +330,7 @@
 
 
     },
-    { 
+     { 
       
         "name":" Amelia Fashion Sandals ",          //footwear5
         "price":"4780",
@@ -516,6 +541,412 @@
         "Description":"Pair of Flip Flops rings "   
 
     },
+    { 
+      
+        "name":" Jockey Cap CP11 ",         //caps1
+        "price":"900",
+        "rating":"4.3",
+        "image":"cap1.jpg",
+        "category":"Light Grey Melange",
+        "Description":"high quality and lether "   
+
+    },
+    { 
+      
+        "name":" Jockey Black Cap ",         //caps2
+        "price":"456",
+        "rating":"4.3",
+        "image":"cap2.jpg",
+        "category":"Light Grey Melange",
+        "Description":"high quality and lether "     
+
+    },
+      { 
+      
+        "name":" Jockey Navy Cap",         //caps3
+        "price":"656",
+        "rating":"4.0",
+        "image":"cap3.jpg",
+        "category":"Light Grey Melange",
+        "Description":"high quality and lether "   
+
+    },
+      { 
+      
+        "name":"TECHBLAZE Unisex   ",         //caps4
+        "price":"456",
+        "rating":"4.3",
+        "image":"cap4.jpg",
+        "category":"Light Grey Melange",
+        "Description":"high quality and lether "    
+
+    },
+    { 
+      
+        "name":"Men Hats Docker Cap ",         //caps5
+        "price":"456",
+        "rating":"4.3",
+        "image":"cap5.jpg",
+        "category":"Light Grey Melange",
+        "Description":"high quality and lether "    
+
+    },
+    { 
+      
+        "name":"  Jewellery Stainless Steel ",        //chains1
+        "price":"456",
+        "rating":"4.3",
+        "image":"ch1.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+      { 
+      
+        "name":"Amaal  ",         //chains2
+        "price":"456",
+        "rating":"4.3",
+        "image":"ch2.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+      { 
+      
+        "name":" Miami Jewellery ",         //chains3
+        "price":"456",
+        "rating":"4.3",
+        "image":"ch3.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":"AanyaCentric  ",          //chains4
+        "price":"456",
+        "rating":"4.3",
+        "image":"ch4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",          //chains5
+        "price":"456",
+        "rating":"4.3",
+        "image":"ch5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":"71tXXE3B+NL._SX679_ ",          //Tv1
+        "price":"456",
+        "rating":"4.3",
+        "image":"tv1.jpg",
+        "category":"wall tv cavins",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+
+    { 
+      
+        "name":" Bluewud Primax ",           //Tv2
+        "price":"456",
+        "rating":"4.3",
+        "image":"tv2.jpg",
+        "category":"wall tv cavins",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+
+    { 
+      
+        "name":"  Engineered Wood Wall Mount TV ",         //Tv3
+        "price":"456",
+        "rating":"4.3",
+        "image":"tv3.jpg",
+        "category":"wall tv cavins",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+
+    { 
+      
+        "name":" Anikaa Cavin ",        //Tv4
+        "price":"456",
+        "rating":"4.3",
+        "image":"tv4.jpg",
+        "category":"wall tv cavins",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+
+    { 
+      
+        "name":" wall tv ",         //Tv5
+        "price":"456",
+        "rating":"4.3",
+        "image":"tv5.jpg",
+        "category":"wall tv cavins",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" NIVEA Soft Light ",      //face1
+        "price":"456",
+        "rating":"4.3",
+        "image":"f1.jpg",
+        "category":"face creams",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" NIVEA Soft Berry",         //face2
+        "price":"456",
+        "rating":"4.3",
+        "image":"f2.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",        //face3
+        "price":"456",
+        "rating":"4.3",
+        "image":"f3.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",         //face4
+        "price":"456",
+        "rating":"4.3",
+        "image":"f4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",         //face5
+        "price":"456",
+        "rating":"4.3",
+        "image":"f5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Colgate Strong Teeth  ",         //colgate1
+        "price":"456",
+        "rating":"4.3",
+        "image":"c1.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Colgate Strong Teeth canvy  ",          //colgate2
+        "price":"456",
+        "rating":"4.3",
+        "image":"c2.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":"Colgate Strong Teeth protection  ",          //colgate3
+        "price":"456",
+        "rating":"4.3",
+        "image":"c3.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Colgate Strong Teeth  ",          //colgate4
+        "price":"456",
+        "rating":"4.3",
+        "image":"c4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Colgate Strong Teeth ",         //colgate5
+        "price":"456",
+        "rating":"4.3",
+        "image":"c5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",          //chocalte1
+        "price":"456",
+        "rating":"4.3",
+        "image":"co1.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",            //chocalte2
+        "price":"456",
+        "rating":"4.3",
+        "image":"co2.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",            //chocalte3
+        "price":"456",
+        "rating":"4.3",
+        "image":"co3.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",             
+        "price":"456",
+        "rating":"4.3",
+        "image":"co4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",          
+        "price":"456",
+        "rating":"4.3",
+        "image":"co5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",          
+        "price":"456",
+        "rating":"4.3",
+        "image":"f5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",        
+        "price":"456",
+        "rating":"4.3",
+        "image":"f5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",        
+        "price":"456",
+        "rating":"4.3",
+        "image":"f5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",        
+        "price":"456",
+        "rating":"4.3",
+        "image":"f5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",       
+        "price":"456",
+        "rating":"4.3",
+        "image":"f5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",      
+        "price":"456",
+        "rating":"4.3",
+        "image":"f5.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",           
+        "price":"456",
+        "rating":"4.3",
+        "image":"co2.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",        
+        "price":"456",
+        "rating":"4.3",
+        "image":"f4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",       
+        "price":"456",
+        "rating":"4.3",
+        "image":"f4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+    { 
+      
+        "name":" Karatcart Platinum ",        
+        "price":"456",
+        "rating":"4.3",
+        "image":"f4.jpg",
+        "category":"Ring for Women and Girls/Gift",
+        "Description":"Pair of Flip Flops rings "   
+
+    },
+
+      
+
 
 ]
-//20+10+15+5=50
