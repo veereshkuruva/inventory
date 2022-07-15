@@ -1,10 +1,12 @@
 import React,{useState} from 'react'
 
 const Todo1 = () => {
-    const [state,setState] =useState('')
+    const [state,setState] =useState("")
 
      const[list,setList]=useState([])
+
     const [edit,setEdit] =useState(true)
+
     const changeHandler =(e)=>{
         setState(e.target.value)
     }
@@ -16,7 +18,7 @@ const Todo1 = () => {
         const newList=[...list,state]
         setList(newList)
         setState("");
-      }
+      } 
      
      
     }
@@ -24,11 +26,13 @@ const Todo1 = () => {
       const newDel=list.filter((ele,index)=>index!==id)
       setList(newDel)
     }
+
     const editHandle=(id)=>{
-      const newEdit=list.find((ele)=>ele==id)
+      const newEdit=list.find((ele)=>ele==id);
        
       setEdit(newEdit)
       setState(newEdit.name)
+   
 
     }
    
@@ -44,7 +48,7 @@ const Todo1 = () => {
     </div>
     <div>
     {list.map((ele,index)=>
-         <li key={index}>{ele} <button onClick={()=>editHandle(index)}>Edit</button> <button onClick={()=>deletehandler(index)}>Delete</button></li>
+         <li key={index}>{ele} <button onClick={()=>editHandle(index,ele.value)}>Edit</button> <button onClick={()=>deletehandler(index)}>Delete</button></li>
         )}
     
     </div>
